@@ -1,0 +1,16 @@
+.aboutUs-headers{
+   height: 95vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+.aboutUs-headers h2{
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 80.69px;
+   width: 450px;
+   font-weight: 400;
+   letter-spacing: 0.807px; 
+   color:#381515;
+}

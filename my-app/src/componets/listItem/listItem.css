@@ -1,0 +1,41 @@
+.slider-main{
+   overflow: hidden;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+}
+
+.slider-wrapper{
+   display: inline-block;
+   box-sizing: border-box;
+}
+
+.slider-cont{
+   display: flex;
+   justify-content: center;
+   padding-top: 40px;
+   position: relative;
+   left: 10px;
+   top: -5px;
+ }
+
+.items{
+margin-right: 30px;
+}
+
+.catalog-item{
+   margin: 0 20px;
+}
+
+.listItem-header h2{
+   color:  #381515;
+   text-align: center;
+   padding-top: 40px;
+   font-size: 38px;
+   font-weight: normal;
+   line-height: 52px; /* 144.444% */
+   letter-spacing: 0.36px; 
+   width: 400px;
+   margin: 0 auto;
+}
+

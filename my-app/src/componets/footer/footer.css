@@ -1,0 +1,26 @@
+.footer{
+   display: flex;
+   width: 90vw;
+   margin: 0 auto;
+   height: 10vh;
+   align-items: center;
+   
+}
+footer{
+   background-color: #322421;
+      
+}
+.footer_block2{
+   display:flex;
+   width: 40%;
+}
+
+.footer_block1{
+   width: 60%;
+   color: #fff;
+}
+
+.footer_block2 p{
+  padding-right: 80px;
+  color: #fff;
+}

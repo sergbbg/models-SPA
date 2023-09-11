@@ -1,0 +1,44 @@
+.imgCatalog{
+   width:350px;
+   height: 480px;
+  
+}
+
+.catalog-carts{
+   margin-top: 80px;
+}
+.catalog-items{
+ display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.catalog{
+   width: 90vw;
+   margin: 0 auto;
+   
+}
+
+main{
+   background-color: #ebe4de;
+   
+}
+
+.catalog-item{
+   margin-bottom: 50px;
+   cursor: pointer;
+}
+
+.catalog-item p{
+   padding: 5px 0 5px 5px;
+}
+
+.catalog-item:hover{
+  border: 2px solid #322421;
+}
+.catalog-header p{
+   text-align: center;
+   padding-top: 50px;
+   font-size: 28px;
+   color:#381515;
+}
