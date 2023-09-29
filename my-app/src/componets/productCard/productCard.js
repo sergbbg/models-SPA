@@ -105,7 +105,9 @@ function singleSelect(el, doc) {
                   <div className="Card-product-color-items Card-product-color-items-size">M  </div>
                   <div className="Card-product-color-items Card-product-color-items-size">L  </div>
               </div>
-
+              <div className='add-bask'>
+                 <a href='#' className='btn-add-bask'>Add</a>
+              </div>
             </div>
           </div>
           </div>

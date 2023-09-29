@@ -87,6 +87,28 @@
 border:1px solid blue;
 }
 .selected {
-   border:3px solid rgb(54, 43, 214);
-   box-shadow: 0px 0px 39px -7px rgba(10, 107, 181, 0.5);
+   border: 3px solid rgb(78, 8, 8);
+  box-shadow: 0px 0px 39px -7px rgba(64, 3, 3, 0.89);
+ }
+
+
+
+ .btn-add-bask{
+   text-decoration: none;
+  color: #381515;;
+  border: 1px solid #381515;;
+  padding: 12px 40px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  letter-spacing: 1.3px;
+ }
+
+ .add-bask{
+   margin-top: 50px;
+ }
+
+
+ .btn-add-bask:hover{
+  color: #fff;
+  background-color:#000;
  }
