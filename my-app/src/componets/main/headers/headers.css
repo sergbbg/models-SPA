@@ -48,3 +48,22 @@
     background-color: #bcbcbc;
     position: relative;
   }
+
+  .shop-cart-button{
+   float: right;
+   cursor: pointer;
+   transition: color 500ms ease;
+ }
+ 
+ .shop-cart{
+   position: absolute;
+   top: 40px;
+   right:20px;
+   width: 450px;
+   min-height: 100px;
+   background:#ebe4de;
+   box-shadow: 4px 5px 15px -7px #606060;
+   z-index: 100;
+   padding: 20px;
+ }
+ 

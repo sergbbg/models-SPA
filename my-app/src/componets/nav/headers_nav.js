@@ -1,5 +1,5 @@
 import React from 'react';
-
+import  { useState } from "react";
 import {
   BrowserRouter as Router,
   Link,
@@ -11,6 +11,7 @@ import './headers_nav.css';
 
 
 export default function HeaderNav() {
+  let [cartOpen, setCartOpen] = useState(false)
    return (
      <div className='header_nav'>
 
@@ -38,9 +39,17 @@ export default function HeaderNav() {
 
       </div>
 
-      <div>
+      <div  onClick={()=>setCartOpen (cartOpen = !cartOpen)} className={`shop-cart-button ${cartOpen && 'active'}`} >
         <img src='./icon/basket.png'></img>
       </div>
+
+      {cartOpen && (
+            <div className="shop-cart">
+               
+
+      
+            </div>
+           )}
      </div>
    )
  }
